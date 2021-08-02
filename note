@@ -1,0 +1,16 @@
+A. Phần head:
+I. icon:
+    1. ti-twitter-alt
+    2. ti-facebook
+    3. ti-instagram
+    4. ti-menu
+II. Responsive:
+    từ small tablet ẩn các navigations, xuất hiện icon của menu -> click => xuất hiện menu hàng ngang
+
+B. Phần body:
+I.slider:  
+    - ảnh 1920x1280: slider1
+    - 2 icons: ti-arrow-circle-right, ti-arrow-circle-left
+II. 4 ô tiếp: 
+
+

@@ -1,0 +1,207 @@
+@font-face{
+    font-family: 'Quicksand';
+    src: url('../fonts/font-family/Quicksand/static/Quicksand-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Noto';
+    src: url('../fonts/font-family/Noto/NotoSansSC-Light.otf');
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+.clearfix{
+    clear: both;
+}
+.quicksand-text{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.noto-text{
+    font-family: 'Noto', sans-serif;
+}
+
+body{
+    min-height: 1500px;
+}
+
+.main{
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.red-text{
+    color: #F43B47;
+}
+
+.white-text{
+    color:white;
+}
+
+h3.slogan{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px; 
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+p{
+    font-family: 'Noto', sans-serif;
+    line-height: 2;
+    color: #787f86;
+    font-size: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col {
+    padding: 72px;
+}
+
+.c-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+
+.c-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.c-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+}
+
+.c-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.c-8 {
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+
+.c-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.c-10 {
+    flex: 0 0 83.33333%;
+    max-width: 83.33333%;
+}
+
+.c-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+input{
+    font-family: 'Noto', sans-serif;
+}
+
+input:focus{
+    outline: none;
+}
+
+button.Btn{
+    font-family: 'Noto', sans-serif;
+    border: 1px solid #505cfd;
+    border-radius: 15px;
+    padding: 6px 15px;
+    margin-top: 20px;
+    position: relative;
+    width: 125px;
+    height: 40px;
+    min-width: 50px;
+}
+
+button .overlay-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #505cfd;
+    z-index: 2;
+    border-radius: 15px;
+}
+
+button p{
+    position: absolute;
+    left: 10%;
+    bottom: 16%;
+    z-index: 3;
+    width: 80%;
+    text-align: center;
+}
+button.Btn:hover{
+    border-style: hidden;
+}
+
+button.Btn:hover p{
+    color: #e9ecef;
+}
+
+button.Btn:hover .overlay-btn{
+    opacity: 1;
+} 
+
+.bold-text{
+    font-weight: bold;
+}
+
+.center-align{
+    text-align: center;
+}
+.dot{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.dot li{
+    width: 10px;
+    height: 10px;
+    background-color: #787F86;
+    border: 1px solid #787F86;
+    border-radius: 50%;
+    margin: 20px 10px;
+}
+
+.dot li:hover{
+    cursor: pointer;
+    background-color: #000;
+}
